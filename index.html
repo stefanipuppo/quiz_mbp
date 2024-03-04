@@ -14,15 +14,18 @@
             <h1>QUIZ &nbsp; MPB</h1>
             <h2>Divirta-se tentando adivinhar quem é o artista representado nas imagens abaixo!</h2>
         </div>
-        <div class="artistas">
+        <figure class="quiz">
             <p>Qual é o nome do(a) artista?</p>
-            <img src="gal.jpg" alt="imagem da gal" class="img">
-        </div>
+            <img  id="figura" src="gal.jpg" alt="imagem do artista" width="250px"/>
+        </figure>
     </div>
     <section>
         <input type="text" id="resposta" placeholder="Digite aqui a resposta">
-        <button onclick="verificarResposta()">Verificar</button>
         <p id="resultado"></p>
+    </section>
+    <section id="button">
+        <button id="verificar"onclick="verificarResposta()">Verificar</button>
+        <button id="proximo" onclick="proximaPergunta()">Próximo</button>
     </section>
     <script src="script.js"></script>
     <footer>

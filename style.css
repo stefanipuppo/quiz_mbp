@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(to right, #ffA07A, #ffD700, #7FFF00);
+    background: linear-gradient(to right, #FF6347, #FFD700, #32CD32,#4682B4);
     width: 90%;
+    text-align: center;
 }
 
 .container {
@@ -30,40 +31,47 @@ p {
     padding-top: 20px;
 }
 
-.artistas {
-    background-color: transparent;
-
-
-}
-
-img.img {
-    width: 100%;
+#figura {
     border-radius: 10px;
+
+    
 }
 
 section {
     text-align: center;
-
-
-
 }
 
+
+
 input#resposta {
+    width: auto;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
 
 }
 
+section#button {
+    text-align: center;
+    display: inline-grid;
+}
+
 button {
-    margin-left: 45px;
+    margin-left: 14px;
     padding: 3px 5px;
     background-color: #007bff;
     color: #ffff;
     cursor: pointer;
     border-radius: 10px;
+}
 
-
+button#proximo {
+    margin-top: 55px;
+    padding: 1px 5px;
+    background-color: #102d4d;
+    color: #ffff;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
