@@ -15,7 +15,7 @@ function verificarResposta() {
     if (respostaUsuario === artistas[indiceAtual] && figura[artistas[indiceAtual]])
     {
         resultado.textContent = "Parabéns, você acertou!";
-        resultado.style.color = "green";
+        resultado.style.color = "white";
 
         document.getElementById("verificar").style.display = "none";
         document.getElementById("proximo").style.display = "inline";
