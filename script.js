@@ -42,3 +42,4 @@ function proximaPergunta() {
         alert("Parabéns, você terminou o quiz!");
     }
 }
+
