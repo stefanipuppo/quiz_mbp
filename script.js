@@ -1,5 +1,7 @@
-let artistas = ["gal", "liniker", "joao gilberto"];
-let figura = {"gal":"gal.jpg", "liniker":"liniker.jpg", "joao gilberto":"joaogil.jpg"};
+let artistas = ["gal costa", "liniker", "ana carolina", "alcione", "chico buarque", "djavan", "vinicius de moraes", "milton nascimento",
+"joão gilberto"];
+let figura = {"gal costa":"gal.jpg", "liniker":"liniker.jpg", "ana carolina":"ana.jpg", "alcione":"alcione.jpg", "chico buarque":"chico.jpg", "djavan":"djavan.jpg","vinicius de moraes":"vinicius.jpg", "milton nascimento":"milton.jpg",
+"joão gilberto":"joaogil.jpg"};
 
 let indiceAtual = 0;
 
@@ -7,6 +9,8 @@ let indiceAtual = 0;
 function verificarResposta() {
     let respostaUsuario = document.getElementById("resposta").value.toLowerCase();
     let resultado = document.getElementById("resultado");
+
+    
 
     if (respostaUsuario === artistas[indiceAtual] && figura[artistas[indiceAtual]])
     {

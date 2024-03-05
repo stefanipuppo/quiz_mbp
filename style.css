@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;600&family=Poppins:wght@300;400;500;700&family=Workbench&display=swap');
+
 body {
-    background: linear-gradient(to right, #FF6347, #FFD700, #32CD32,#4682B4);
-    width: 90%;
+
+    background-image: url('fundo.png');
+
+
     text-align: center;
 }
 
@@ -17,7 +21,8 @@ body {
 }
 
 h1 {
-    text-shadow: -4px 7px 5px rgba(15, 1, 1, 0.507);
+    font-family: "Workbench", sans-serif; 
+    text-shadow: -4px 7px 5px rgba(2, 15, 1, 0.507);
     text-align: center;
 
 }
@@ -28,7 +33,7 @@ h2 {
 
 p {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 #figura {
@@ -44,7 +49,7 @@ section {
 
 
 input#resposta {
-    width: auto;
+    width: 70%;
     padding: 10px;
     margin-top: 20px;
     border-radius: 10px;
@@ -59,7 +64,7 @@ section#button {
 button {
     margin-left: 14px;
     padding: 3px 5px;
-    background-color: #007bff;
+    background-color: #084119d2;
     color: #ffff;
     cursor: pointer;
     border-radius: 10px;
@@ -67,11 +72,12 @@ button {
 
 button#proximo {
     margin-top: 55px;
-    padding: 1px 5px;
+    padding: 3px 5px;
     background-color: #102d4d;
     color: #ffff;
     cursor: pointer;
     border-radius: 10px;
+
 }
 
 button:hover {
@@ -82,4 +88,5 @@ footer {
     padding-top: 90px;
     position: relative;
     font-size: 10px;
+    padding-top: 206px
 }
