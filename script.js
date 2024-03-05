@@ -7,7 +7,7 @@ let indiceAtual = 0;
 
 
 function verificarResposta() {
-    let respostaUsuario = document.getElementById("resposta").value.toLowerCase();
+    let respostaUsuario = document.getElementById("resposta")value.toLowerCase();
     let resultado = document.getElementById("resultado");
 
     
